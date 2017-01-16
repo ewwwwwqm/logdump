@@ -1,4 +1,4 @@
-Logdump
+Logdump [![Go Report Card](https://goreportcard.com/badge/github.com/ewwwwwqm/logdump)](https://goreportcard.com/report/github.com/ewwwwwqm/logdump)
 =======
 
 Package for writing logs to multiple files
@@ -6,6 +6,11 @@ Package for writing logs to multiple files
 Usage
 -----
 ``` $ go get github.com/ewwwwwqm/logdump ```
+
+Documentation
+-------------
+
+[Godoc page](https://godoc.org/github.com/ewwwwwqm/logdump)
 
 Example
 -------
