@@ -1,19 +1,14 @@
-Logdump [![Go Report Card](https://goreportcard.com/badge/github.com/ewwwwwqm/logdump)](https://goreportcard.com/report/github.com/ewwwwwqm/logdump)
-=======
+# Logdump
+
+[![Godoc Reference][godoc-img]][godoc]
+[![Go Report Card][goreportcard-img]][goreportcard]
 
 Package for writing logs to multiple files
 
-Usage
------
+## Usage
 ``` $ go get github.com/ewwwwwqm/logdump ```
 
-Documentation
--------------
-
-[Godoc page](https://godoc.org/github.com/ewwwwwqm/logdump)
-
-Example
--------
+## Example
 ``` main.go ```
 ```go
 package main
@@ -84,3 +79,12 @@ Files were created.
 2017/01/13 17:45:48 Start notice logging
 2017/01/13 17:45:48 some notice
 ```
+
+[godoc]: http://godoc.org/github.com/ewwwwwqm/logdump
+[godoc-img]: https://godoc.org/github.com/ewwwwwqm/logdump?status.svg
+[ci-img]: https://travis-ci.org/ewwwwwqm/logdump?branch=master
+[cov-img]: https://coveralls.io/repos/github/ewwwwwqm/logdumpbadge.svg?branch=master
+[ci]: https://travis-ci.org/ewwwwwqm/logdump
+[cov]: https://coveralls.io/github/ewwwwwqm/logdump?branch=master
+[goreportcard-img]: https://goreportcard.com/badge/github.com/ewwwwwqm/logdump
+[goreportcard]: https://goreportcard.com/report/github.com/ewwwwwqm/logdump
