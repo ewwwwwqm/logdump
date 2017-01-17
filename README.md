@@ -1,6 +1,7 @@
 # Logdump
 
 [![Godoc Reference][godoc-img]][godoc]
+[![Build Status][ci-img]][ci]
 [![Go Report Card][goreportcard-img]][goreportcard]
 
 Package for writing logs to multiple files
