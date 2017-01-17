@@ -82,7 +82,7 @@ Files were created.
 
 [godoc]: http://godoc.org/github.com/ewwwwwqm/logdump
 [godoc-img]: https://godoc.org/github.com/ewwwwwqm/logdump?status.svg
-[ci-img]: https://travis-ci.org/ewwwwwqm/logdump?branch=master
+[ci-img]: https://travis-ci.org/ewwwwwqm/logdump.svg?branch=master
 [cov-img]: https://coveralls.io/repos/github/ewwwwwqm/logdumpbadge.svg?branch=master
 [ci]: https://travis-ci.org/ewwwwwqm/logdump
 [cov]: https://coveralls.io/github/ewwwwwqm/logdump?branch=master
