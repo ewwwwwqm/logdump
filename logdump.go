@@ -3,9 +3,9 @@ package logdump
 
 import (
 	"fmt"
+	"io"
 	"log"
 	"os"
-	"io"
 )
 
 // LogsOutput represents an active logging objects
@@ -15,10 +15,10 @@ type LogsOutput struct {
 }
 
 // FileOutput contains log level type and io.Writer for output.
-// Each logging operation makes a single call to 
+// Each logging operation makes a single call to
 // the Writer's Write method.
 type FileOutput struct {
-	Logtype string // contains log level type
+	Logtype   string    // contains log level type
 	Logoutput io.Writer // contains io.Writer for output
 }
 
@@ -30,10 +30,10 @@ var logsOutput LogsOutput
 // After init log output sets to default os.Stderr.
 func Init(logstruct map[string]interface{}) {
 	for k, v := range logstruct {
-		f, err := os.OpenFile(fmt.Sprintf("%v", v), 
-			os.O_RDWR | os.O_CREATE | os.O_APPEND, 0666)
+		f, err := os.OpenFile(fmt.Sprintf("%v", v),
+			os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
 		if err != nil {
-		    log.Fatalf("Error opening log file: %v", err)
+			log.Fatalf("Error opening log file: %v", err)
 		}
 		fileOutput := FileOutput{Logtype: k, Logoutput: f}
 		logsOutput.File = append(logsOutput.File, fileOutput)

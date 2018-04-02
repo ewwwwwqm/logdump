@@ -3,18 +3,18 @@ package logdump_test
 import (
 	"fmt"
 
-    "github.com/ewwwwwqm/logdump"
+	"github.com/ewwwwwqm/logdump"
 )
 
 func ExampleInit() {
 	newLog := map[string]interface{}{
-		"error": "error.log",
+		"error":   "error.log",
 		"warning": "warning.log",
-		"notice": "notice.log",
+		"notice":  "notice.log",
 	}
 
 	logdump.Init(newLog)
-	
+
 	fmt.Println(newLog)
 	// Output:
 	// map[error:error.log warning:warning.log notice:notice.log]
@@ -22,13 +22,13 @@ func ExampleInit() {
 
 func ExampleWrite() {
 	newLog := map[string]interface{}{
-		"error": "error.log",
+		"error":   "error.log",
 		"warning": "warning.log",
-		"notice": "notice.log",
+		"notice":  "notice.log",
 	}
 
-	logdump.Init(newLog)	
+	logdump.Init(newLog)
 	logdump.Write("error", "there was an error")
-    // Output:
-	// 
+	// Output:
+	//
 }
