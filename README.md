@@ -87,5 +87,5 @@ Files were created.
 [cov-img]: https://coveralls.io/repos/github/ewwwwwqm/logdumpbadge.svg?branch=master
 [ci]: https://travis-ci.org/ewwwwwqm/logdump
 [cov]: https://coveralls.io/github/ewwwwwqm/logdump?branch=master
-[goreportcard-img]: https://goreportcard.com/badge/github.com/ewwwwwqm/logdump
-[goreportcard]: https://goreportcard.com/report/github.com/ewwwwwqm/logdump
+[goreportcard-img]: https://goreportcard.com/badge/github.com/ewwwwwqm/logdump?branch=master
+[goreportcard]: https://goreportcard.com/report/github.com/ewwwwwqm/logdump?branch=master
